@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+#auth-layout{ 
+min-height: 100vh;
+width:100%;
+display: flex;
+}
+.image-section{
+background: url(../image/codepen\ logo.png);
+background-repeat: no-repeat;
+background-position: center;
+height: 100vh;
+width:40%;
+}
+.form-section {
+height: 100vh;
+width:60%;
+Padding: 40px;
+}
+.logo-section{
+    display:flex;
+    justify-content: flex-end;
+}
+.form-row{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.form-row .input-box{
+    width:48%;
+}
+.form-row .input-box input{
+    width:100%;
+    height:50px;
+    padding:0 10px;
+}
+.form-row .input-box select{
+    width:100%;
+    height:50px;
+    padding:0 1px;
+}
+.form-row .textarea-section{
+    width:100%;
+}
+.form-row .textarea-section textarea{
+width:100%;
+height:50px;
+}
+.button-section{
+    display:flex;
+    justify-content: flex-end;
+}
+.button-section button{
+    background:blue;
+    padding:8px,40px;
+    border:none;
+    color:white;
+}
+.gender{
+    margin:0 0 25px 25px;
+}
+.gender value{
+    margin:15px 0;
+}
